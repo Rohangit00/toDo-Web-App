@@ -8,7 +8,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 mongoose.connect(
-    "mongodb+srv://strider:veryimportant2001@cluster0.7jvc7ln.mongodb.net/tododb"
+    "mongodb+srv://<database_username>:<database_password>@cluster0.7jvc7ln.mongodb.net/tododb"
     );
 
 const taskSchema = 
